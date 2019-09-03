@@ -9,11 +9,11 @@ const schema = mongoose.Schema({
         type : String,
         required : true
     },
-    startTime : {
+    start : {
         type : Date,
         required : true
     },
-    endTime : {
+    end : {
         type : Date,
         required : true
     },
