@@ -294,13 +294,288 @@ const reset = async () => {
 
         // Create 10 events for Panos Panay (Rajesh Jha)
 
+        // 1
+        {
+            title : 'Surface Poker',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/09/2019 14:00'),
+            end : new Date('10/09/2019 19:00'),
+            building : '88',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'FundRaising',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
+        // 2
+        {
+            title : 'Surface Painting',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/10/2019 14:00'),
+            end : new Date('10/10/2019 16:00'),
+            building : '88',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'FundRaising',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
+        // 3
+        {
+            title : 'Breakfast With Panos',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/11/2019 8:00'),
+            end : new Date('10/11/2019 10:00'),
+            building : '88',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'FundRaising',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
+        // 4
+        {
+            title : 'Surface Auction',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/23/2019 14:00'),
+            end : new Date('10/23/2019 19:00'),
+            building : '87',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'FundRaising',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
+        // 5
+        {
+            title : 'Surface Pool Tournament',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/17/2019 9:00'),
+            end : new Date('10/17/2019 15:00'),
+            building : '88',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'FundRaising',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
+        // 6
+        {
+            title : 'Make First Aid Kits with American Red Cross',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/15/2019 11:00'),
+            end : new Date('10/15/2019 13:00'),
+            building : '88',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'MicroVolunteering',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
+        // 7
+        {
+            title : 'Northwest Harvest - Donate to food bank',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/18/2019 11:00'),
+            end : new Date('10/18/2019 13:00'),
+            building : '87',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'MicroVolunteering',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
+        // 8
+        {
+            title : 'Make Girl Scout Cookies',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/21/2019 11:00'),
+            end : new Date('10/21/2019 13:00'),
+            building : '88',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'MicroVolunteering',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
+        // 9
+        {
+            title : 'Tutor underprivileged kids in Math',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/15/2019 11:00'),
+            end : new Date('10/15/2019 13:00'),
+            building : '87',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'MicroVolunteering',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
+        // 10
+        {
+            title : 'Help with Weeding and Mulching in Marymoor Park',
+            contact : 'jecota@microsoft.com',
+            start : new Date('10/01/2019 11:00'),
+            end : new Date('10/01/2019 13:00'),
+            building : '88',
+            city : 'Redmond',
+            state :'WA',
+            event_type : 'MicroVolunteering',
+            slt_leader : 'Rajesh Jha',
+            leader : 'Panos Panay'
+        },
+
         // Create 5 events for Jason Zander (Scott Guthrie)
 
+        // 1
+        {
+            title : 'Azure Poker',
+            contact : 'lekevin@microsoft.com',
+            start : new Date('10/09/2019 14:00'),
+            end : new Date('10/09/2019 19:00'),
+            building : 'CHARLOTTE-AP1',
+            city : 'CHARLOTTE',
+            state :'NC',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Jason Zander'
+        },
+
+        // 2
+        {
+            title : 'Azure Ice Cream Social',
+            contact : 'lekevin@microsoft.com',
+            start : new Date('10/10/2019 15:00'),
+            end : new Date('10/10/2019 17:00'),
+            building : 'CHARLOTTE-AP1',
+            city : 'CHARLOTTE',
+            state :'NC',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Jason Zander'
+        },
+
+        // 3
+        {
+            title : 'Azure Soccer',
+            contact : 'lekevin@microsoft.com',
+            start : new Date('10/15/2019 8:00'),
+            end : new Date('10/15/2019 17:00'),
+            building : 'CHARLOTTE-AP1',
+            city : 'CHARLOTTE',
+            state :'NC',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Jason Zander'
+        },
+
+        // 4
+        {
+            title : 'Azure Trivia',
+            contact : 'lekevin@microsoft.com',
+            start : new Date('10/23/2019 14:00'),
+            end : new Date('10/23/2019 19:00'),
+            building : 'CHARLOTTE-AP1',
+            city : 'CHARLOTTE',
+            state :'NC',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Jason Zander'
+        },
+
+        // 5
+        {
+            title : 'Azure 5k',
+            contact : 'lekevin@microsoft.com',
+            start : new Date('10/02/2019 14:00'),
+            end : new Date('10/02/2019 17:00'),
+            building : 'CHARLOTTE-AP1',
+            city : 'CHARLOTTE',
+            state :'NC',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Jason Zander'
+        },
+
         // Create 5 events for Julia Liuson (Scott Guthrie)
+         // 1
+         {
+            title : 'VS Poker',
+            contact : 'davebar@microsoft.com',
+            start : new Date('10/09/2019 14:00'),
+            end : new Date('10/09/2019 19:00'),
+            building : 'NYC-TIMESSQUARE',
+            city : 'NewYork',
+            state :'NY',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Julia Liuson'
+        },
 
-        // Create 8 events for Kirk Koenigsbauer (Chris Caposela)
+        // 2
+        {
+            title : 'VS Ice Cream Social',
+            contact : 'davebar@microsoft.com',
+            start : new Date('10/10/2019 15:00'),
+            end : new Date('10/10/2019 17:00'),
+            building : 'NYC-TIMESSQUARE',
+            city : 'NewYork',
+            state :'NY',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Julia Liuson'
+        },
 
-        // Create 8 events for Yusuf Mehdi (Chris Caposela)
+        // 3
+        {
+            title : 'VS Soccer',
+            contact : 'davebar@microsoft.com',
+            start : new Date('10/15/2019 8:00'),
+            end : new Date('10/15/2019 17:00'),
+            building : 'NYC-TIMESSQUARE',
+            city : 'NewYork',
+            state :'NY',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Julia Liuson'
+        },
+
+        // 4
+        {
+            title : 'VS Trivia',
+            contact : 'davebar@microsoft.com',
+            start : new Date('10/23/2019 14:00'),
+            end : new Date('10/23/2019 19:00'),
+            building : 'NYC-TIMESSQUARE',
+            city : 'NewYork',
+            state :'NY',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Julia Liuson'
+        },
+
+        // 5
+        {
+            title : 'VS 5k',
+            contact : 'davebar@microsoft.com',
+            start : new Date('10/02/2019 14:00'),
+            end : new Date('10/02/2019 17:00'),
+            building : 'NYC-TIMESSQUARE',
+            city : 'NewYork',
+            state :'NY',
+            event_type : 'FundRaising',
+            slt_leader : 'Scott Guthrie',
+            leader : 'Julia Liuson'
+        },
 
     ])
 }
