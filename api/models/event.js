@@ -21,6 +21,10 @@ const schema = mongoose.Schema({
         type : String,
         required : true
     },
+    room : {
+        type : String,
+        required : true
+    },
     city : {
         type : String,
         required : true
@@ -37,11 +41,14 @@ const schema = mongoose.Schema({
         type : String,
         required : true
     },
-    leader : {
+    exec_sponsor : {
         type : String
     },
     event_url : {
         type: String
+    },
+    comments : {
+        type : String
     }
     },
     { timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } }

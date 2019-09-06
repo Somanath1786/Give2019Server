@@ -18,11 +18,13 @@ const reset = async () => {
             start : new Date('10/04/2019 14:00'),
             end : new Date('10/04/2019 19:00'),
             building : '31',
+            room : 'Cafe',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give'
         },
 
         // 2
@@ -32,11 +34,13 @@ const reset = async () => {
             start : new Date('10/07/2019 9:00'),
             end : new Date('10/07/2019 14:00'),
             building : '31',
+            room : 'Cafe',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give'
         },
 
         // 3
@@ -46,11 +50,13 @@ const reset = async () => {
             start : new Date('10/10/2019 9:00'),
             end : new Date('10/10/2019 19:00'),
             building : '32',
+            room : 'Pool Table',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give'
         },
 
         // 4
@@ -60,11 +66,13 @@ const reset = async () => {
             start : new Date('10/15/2019 14:30'),
             end : new Date('10/15/2019 16:30'),
             building : '31',
+            room : 'Cafe',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give'
         },
 
         // 5
@@ -74,11 +82,13 @@ const reset = async () => {
             start : new Date('10/25/2019 14:00'),
             end : new Date('10/25/2019 17:00'),
             building : '32',
+            room : 'Lobby',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give'
         },
 
         // 6
@@ -88,11 +98,14 @@ const reset = async () => {
             start : new Date('10/14/2019 12:00'),
             end : new Date('10/14/2019 13:00'),
             building : '32',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give',
+            comments : 'We will be making PB&J sandwiches'
         },
 
         // 7
@@ -102,11 +115,14 @@ const reset = async () => {
             start : new Date('10/23/2019 12:00'),
             end : new Date('10/23/2019 13:00'),
             building : '32',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give',
+            comments : 'We will help train service dogs for Summit Assitance Dogs'
         },
 
         // 8
@@ -116,11 +132,14 @@ const reset = async () => {
             start : new Date('10/10/2019 12:00'),
             end : new Date('10/10/2019 13:00'),
             building : '32',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give',
+            comments : 'You will receive CPR training from a certified professional'
         },
 
         // 9
@@ -130,11 +149,14 @@ const reset = async () => {
             start : new Date('10/24/2019 12:00'),
             end : new Date('10/24/2019 13:00'),
             building : '32',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give',
+            comments : 'You will help make goody bags which will be distributed to low income /underpriviledged kids though Birthday Dreams'
         },
 
         // 10
@@ -144,11 +166,14 @@ const reset = async () => {
             start : new Date('10/09/2019 12:00'),
             end : new Date('10/09/2019 13:00'),
             building : '32',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Gaurav Sareen'
+            exec_sponsor : 'Gaurav Sareen',
+            event_url : 'aka.ms/give',
+            comments : 'Come play with these adorable cute kittens'
         },
 
         // Create 10 events for Perry Clarke (Rajesh Jha)
@@ -159,11 +184,13 @@ const reset = async () => {
             start : new Date('10/04/2019 14:00'),
             end : new Date('10/04/2019 19:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // 2
@@ -173,11 +200,13 @@ const reset = async () => {
             start : new Date('10/07/2019 14:00'),
             end : new Date('10/07/2019 19:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // 3
@@ -187,11 +216,13 @@ const reset = async () => {
             start : new Date('10/03/2019 14:00'),
             end : new Date('10/03/2019 16:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // 4
@@ -201,11 +232,13 @@ const reset = async () => {
             start : new Date('10/09/2019 08:00'),
             end : new Date('10/09/2019 10:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // 5
@@ -215,11 +248,13 @@ const reset = async () => {
             start : new Date('10/23/2019 14:00'),
             end : new Date('10/23/2019 17:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // 6
@@ -229,11 +264,13 @@ const reset = async () => {
             start : new Date('10/16/2019 12:00'),
             end : new Date('10/16/2019 13:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // 7
@@ -243,11 +280,13 @@ const reset = async () => {
             start : new Date('10/24/2019 12:00'),
             end : new Date('10/24/2019 13:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // 8
@@ -257,11 +296,13 @@ const reset = async () => {
             start : new Date('10/09/2019 12:00'),
             end : new Date('10/09/2019 13:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // 9
@@ -271,11 +312,13 @@ const reset = async () => {
             start : new Date('10/30/2019 12:00'),
             end : new Date('10/30/2019 13:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // 10
@@ -285,11 +328,13 @@ const reset = async () => {
             start : new Date('10/10/2019 12:00'),
             end : new Date('10/10/2019 13:00'),
             building : '31',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Perry Clarke'
+            exec_sponsor : 'Perry Clarke',
+            event_url : 'aka.ms/give'
         },
 
         // Create 10 events for Panos Panay (Rajesh Jha)
@@ -301,11 +346,13 @@ const reset = async () => {
             start : new Date('10/09/2019 14:00'),
             end : new Date('10/09/2019 19:00'),
             building : '88',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // 2
@@ -315,11 +362,13 @@ const reset = async () => {
             start : new Date('10/10/2019 14:00'),
             end : new Date('10/10/2019 16:00'),
             building : '88',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // 3
@@ -329,11 +378,13 @@ const reset = async () => {
             start : new Date('10/11/2019 8:00'),
             end : new Date('10/11/2019 10:00'),
             building : '88',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // 4
@@ -343,11 +394,13 @@ const reset = async () => {
             start : new Date('10/23/2019 14:00'),
             end : new Date('10/23/2019 19:00'),
             building : '87',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // 5
@@ -357,11 +410,13 @@ const reset = async () => {
             start : new Date('10/17/2019 9:00'),
             end : new Date('10/17/2019 15:00'),
             building : '88',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // 6
@@ -371,11 +426,13 @@ const reset = async () => {
             start : new Date('10/15/2019 11:00'),
             end : new Date('10/15/2019 13:00'),
             building : '88',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // 7
@@ -385,11 +442,13 @@ const reset = async () => {
             start : new Date('10/18/2019 11:00'),
             end : new Date('10/18/2019 13:00'),
             building : '87',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // 8
@@ -399,11 +458,13 @@ const reset = async () => {
             start : new Date('10/21/2019 11:00'),
             end : new Date('10/21/2019 13:00'),
             building : '88',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // 9
@@ -413,11 +474,13 @@ const reset = async () => {
             start : new Date('10/15/2019 11:00'),
             end : new Date('10/15/2019 13:00'),
             building : '87',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // 10
@@ -427,11 +490,13 @@ const reset = async () => {
             start : new Date('10/01/2019 11:00'),
             end : new Date('10/01/2019 13:00'),
             building : '88',
+            room : 'Conf Room 1',
             city : 'Redmond',
             state :'WA',
-            event_type : 'MicroVolunteering',
+            event_type : 'Micro-volunteering',
             slt_leader : 'Rajesh Jha',
-            leader : 'Panos Panay'
+            exec_sponsor : 'Panos Panay',
+            event_url : 'aka.ms/give'
         },
 
         // Create 5 events for Jason Zander (Scott Guthrie)
@@ -443,11 +508,13 @@ const reset = async () => {
             start : new Date('10/09/2019 14:00'),
             end : new Date('10/09/2019 19:00'),
             building : 'CHARLOTTE-AP1',
+            room : 'Conf Room 1',
             city : 'CHARLOTTE',
             state :'NC',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Jason Zander'
+            exec_sponsor : 'Jason Zander',
+            event_url : 'aka.ms/give'
         },
 
         // 2
@@ -457,11 +524,13 @@ const reset = async () => {
             start : new Date('10/10/2019 15:00'),
             end : new Date('10/10/2019 17:00'),
             building : 'CHARLOTTE-AP1',
+            room : 'Conf Room 1',
             city : 'CHARLOTTE',
             state :'NC',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Jason Zander'
+            exec_sponsor : 'Jason Zander',
+            event_url : 'aka.ms/give'
         },
 
         // 3
@@ -471,11 +540,13 @@ const reset = async () => {
             start : new Date('10/15/2019 8:00'),
             end : new Date('10/15/2019 17:00'),
             building : 'CHARLOTTE-AP1',
+            room : 'Conf Room 1',
             city : 'CHARLOTTE',
             state :'NC',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Jason Zander'
+            exec_sponsor : 'Jason Zander',
+            event_url : 'aka.ms/give'
         },
 
         // 4
@@ -485,11 +556,13 @@ const reset = async () => {
             start : new Date('10/23/2019 14:00'),
             end : new Date('10/23/2019 19:00'),
             building : 'CHARLOTTE-AP1',
+            room : 'Conf Room 1',
             city : 'CHARLOTTE',
             state :'NC',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Jason Zander'
+            exec_sponsor : 'Jason Zander',
+            event_url : 'aka.ms/give'
         },
 
         // 5
@@ -499,11 +572,13 @@ const reset = async () => {
             start : new Date('10/02/2019 14:00'),
             end : new Date('10/02/2019 17:00'),
             building : 'CHARLOTTE-AP1',
+            room : 'Conf Room 1',
             city : 'CHARLOTTE',
             state :'NC',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Jason Zander'
+            exec_sponsor : 'Jason Zander',
+            event_url : 'aka.ms/give'
         },
 
         // Create 5 events for Julia Liuson (Scott Guthrie)
@@ -514,11 +589,13 @@ const reset = async () => {
             start : new Date('10/09/2019 14:00'),
             end : new Date('10/09/2019 19:00'),
             building : 'NYC-TIMESSQUARE',
+            room : 'Conf Room 1',
             city : 'NewYork',
             state :'NY',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Julia Liuson'
+            exec_sponsor : 'Julia Liuson',
+            event_url : 'aka.ms/give'
         },
 
         // 2
@@ -528,11 +605,13 @@ const reset = async () => {
             start : new Date('10/10/2019 15:00'),
             end : new Date('10/10/2019 17:00'),
             building : 'NYC-TIMESSQUARE',
+            room : 'Conf Room 1',
             city : 'NewYork',
             state :'NY',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Julia Liuson'
+            exec_sponsor : 'Julia Liuson',
+            event_url : 'aka.ms/give'
         },
 
         // 3
@@ -542,11 +621,13 @@ const reset = async () => {
             start : new Date('10/15/2019 8:00'),
             end : new Date('10/15/2019 17:00'),
             building : 'NYC-TIMESSQUARE',
+            room : 'Conf Room 1',
             city : 'NewYork',
             state :'NY',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Julia Liuson'
+            exec_sponsor : 'Julia Liuson',
+            event_url : 'aka.ms/give'
         },
 
         // 4
@@ -556,11 +637,13 @@ const reset = async () => {
             start : new Date('10/23/2019 14:00'),
             end : new Date('10/23/2019 19:00'),
             building : 'NYC-TIMESSQUARE',
+            room : 'Conf Room 1',
             city : 'NewYork',
             state :'NY',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Julia Liuson'
+            exec_sponsor : 'Julia Liuson',
+            event_url : 'aka.ms/give'
         },
 
         // 5
@@ -570,11 +653,13 @@ const reset = async () => {
             start : new Date('10/02/2019 14:00'),
             end : new Date('10/02/2019 17:00'),
             building : 'NYC-TIMESSQUARE',
+            room : 'Conf Room 1',
             city : 'NewYork',
             state :'NY',
-            event_type : 'FundRaising',
+            event_type : 'Fundraising',
             slt_leader : 'Scott Guthrie',
-            leader : 'Julia Liuson'
+            exec_sponsor : 'Julia Liuson',
+            event_url : 'aka.ms/give'
         },
 
     ])
